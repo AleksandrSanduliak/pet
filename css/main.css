@@ -706,6 +706,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -716,14 +717,14 @@ p {
   font-size: 0.9375rem;
   line-height: 110%;
 }
-.modal__about--item:before {
+/* .modal__about--item:before {
   content: url(/img/dot.png);
   position: relative;
   top: -3px;
   width: 100%;
   height: 100%;
   margin-right: 10px;
-}
+} */
 .modal__about--item:not(:last-child) {
   margin-bottom: 11px;
 }
